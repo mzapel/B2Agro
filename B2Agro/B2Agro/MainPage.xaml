@@ -6,9 +6,15 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Button Text="Tirar Foto" Clicked="TirarFoto" FontSize="20" />
+
+        <Button Text="Escolher Foto" Clicked="EscolherFoto" FontSize="20" />
+
+        <Button Text="Gravar Video" Clicked="GravarVideo" FontSize="20" />
+
+        <Button Text="Escolher Video" Clicked="EscolherVideo" FontSize="20" />
+
+        <Image x:Name="MinhaImagem" />
     </StackLayout>
 
 </ContentPage>
